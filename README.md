@@ -4,6 +4,15 @@ LLNW collectd packaging for Debian/Ubuntu
 * Upstream:  git://git.tokkee.org/pkg-collectd
 * gitweb: http://git.tokkee.org/?p=pkg-collectd.git
 
+Requirements:
+--------------
+
+### Debian 7.x:
+
+```bash
+apt-get install debhelper po-debconf dpatch bison flex pkg-config iptables-dev javahelper libcurl4-gnutls-dev  libcurl4-gnutls-dev  libcurl3-gnutls-dev libdbi0-dev libesmtp-dev libganglia1-dev libgcrypt11-dev libglib2.0-dev libhiredis-dev liblvm2-dev libmemcached-dev libmodbus-dev libmnl-dev libmysqlclient-dev libnotify-dev libopenipmi-dev liboping-dev libpcap0.8-dev  libpcap-dev libperl-dev libpq-dev libprotobuf-c0-dev librabbitmq-dev librrd-dev libsensors4-dev libsnmp-dev  libsnmp-dev  libsnmp9-dev libsnmp-dev  perl libtokyocabinet-dev libtokyotyrant-dev  libupsclient1-dev libvarnish-dev libvirt-dev libyajl-dev default-jdk protobuf-c-compiler python-dev
+```
+
 Building the package:
 ---------------------
 

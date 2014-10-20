@@ -138,6 +138,8 @@ confflags += --enable-target_notification
 confflags += --enable-target_replace
 confflags += --enable-target_scale
 confflags += --enable-target_set
+confflags += --enable-network
+confflags += --enable-rrdtool
 
 # These plugins do not provide any functionality under Linux.
 # MacOS only (requires IO Kit):
