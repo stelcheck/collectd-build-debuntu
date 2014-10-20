@@ -20,7 +20,7 @@ Building the package:
   in the root of this repo
 * Extract the source tree into 'collectd/':
 
-    `tar xvzf collectd_5.4.1-llnw6.orig.tar.gz -C collectd --strip-components=1`
+    `tar xvzf collectd-5.4.1.llnw6.tar.gz -C collectd --strip-components=1`
 * `cd collectd`
 * `dpkg-buildpackage -us -uc`
 
